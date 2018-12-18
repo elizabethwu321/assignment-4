@@ -1,0 +1,94 @@
+body {
+	background-color: #f2f2f2;
+}
+
+h1 {
+	font-family: futura;
+	font-size: 40px;
+	font-style: italic;
+	color: navy;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+h2 {
+	font-family: futura;
+	font-size: 20px;
+	font-style: italic;
+	color: navy;
+	margin: auto;
+}
+
+a {
+	color: black;
+	font-family: futura;
+	font-size: 15px;
+}
+
+h6 {
+	font-family: futura;
+	font-size: 15px;
+	color: navy;
+	margin-top: 300px;
+	margin-left: 600px;
+	font-style: italic;
+}
+
+.background {
+	background-color: white;
+}
+
+    .image-wrapperOne {
+      width: 400px;
+      height: auto;
+      margin: 100px auto;
+      position: relative;
+    }
+
+    .image-wrapperOne img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 400px;
+      opacity: 1;
+      transition: opacity .1s ease-in-out;
+    }
+
+    .button {
+      width: 500px;
+      height: 200px;
+      background-color: #f2f2f2;
+      margin-top: -30px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      transition: opacity .1s ease-in;
+      transition: opacity .1s ease-out;
+      opacity: 0;
+    }
+
+    .button:hover {
+      opacity: 1;
+      background-color: #f2f2f2;
+      transition: opacity .1s ease-in;
+      transition: opacity .1s ease-out;
+    }
+
+.flex {
+      display: flex;
+      margin-top: 1px;
+      margin-right: 1px;
+      margin-bottom: 1px;
+      margin-left: 1px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: space-around;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+
+
+
